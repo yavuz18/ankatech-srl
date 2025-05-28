@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANKATECH SRL</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff; color: #333; }
+    header, footer { text-align: center; padding: 20px; background-color: #f3f3f3; }
+    h1 { margin: 0; font-size: 2.5em; }
+    h2 { font-size: 1.5em; margin-top: 1em; }
+    section { padding: 20px; max-width: 1000px; margin: auto; }
+    ul { list-style: disc; padding-left: 20px; }
+    .two-col { display: flex; flex-wrap: wrap; gap: 20px; }
+    .two-col > div { flex: 1; min-width: 300px; }
+    img { max-width: 100%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    form { display: flex; flex-direction: column; gap: 10px; max-width: 500px; margin: auto; }
+    input, textarea { padding: 10px; font-size: 1em; border: 1px solid #ccc; border-radius: 5px; }
+    button { background-color: #007bff; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background-color: #0056b3; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .gallery img { width: 300px; height: auto; border-radius: 10px; }
+    .logo { max-height: 80px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="CDV-400g-Pel.Mat-RV-V02-Ankatech (1).jpg" alt="Logo ANKATECH" class="logo">
+    <h1>ANKATECH SRL</h1>
+    <p>Spécialiste en étanchéité, drainage de cave et traitement de l'humidité</p>
+  </header>
+
+  <section class="two-col">
+    <div>
+      <h2>Nos Services</h2>
+      <ul>
+        <li>Traitement de l'humidité ascensionnelle</li>
+        <li>Drainage de caves</li>
+        <li>Cuvelage professionnel</li>
+        <li>Hydrofugation des façades</li>
+        <li>Étanchéité des murs et sols</li>
+        <li>Ventilation et traitement de l'air</li>
+      </ul>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/500x300" alt="Travaux d'étanchéité">
+    </div>
+  </section>
+
+  <section style="background-color:#f3f3f3; border-radius: 10px;">
+    <h2>Pourquoi choisir ANKATECH ?</h2>
+    <ul>
+      <li>Expertise certifiée (produits reconnus ATG / WTCB)</li>
+      <li>Devis gratuit sous 48h</li>
+      <li>Intervention rapide en Wallonie & Bruxelles</li>
+      <li>Équipe professionnelle et réactive</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 style="text-align:center;">Galerie Avant / Après</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Avant+1" alt="Avant 1">
+      <img src="https://via.placeholder.com/300x200?text=Après+1" alt="Après 1">
+      <img src="https://via.placeholder.com/300x200?text=Avant+2" alt="Avant 2">
+      <img src="https://via.placeholder.com/300x200?text=Après+2" alt="Après 2">
+    </div>
+  </section>
+
+  <section style="text-align:center;">
+    <h2>Contactez-nous</h2>
+    <p>📞 0475 87 07 12</p>
+    <p>📩 yavuz@ankatech.pro</p>
+    <p>📍 Rue Quartier du Pachy Hue 6, 6240 Farciennes, Belgique</p>
+  </section>
+
+  <section>
+    <h2 style="text-align:center;">Formulaire de contact</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="nom" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 ANKATECH SRL – Tous droits réservés
+  </footer>
+</body>
+</html>
